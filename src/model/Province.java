@@ -3,7 +3,7 @@ package model;
 public class Province {
 	private int id;
 	private String provinceName;
-	private String provinceCode;
+	private int provinceCode;
 	
 	public int getId(){
 		return id;
@@ -21,11 +21,11 @@ public class Province {
 		this.provinceName = name;
 	}
 	
-	public String getProvinceCode(){
+	public int getProvinceCode(){
 		return provinceCode;
 	}
 	
-	public void setProvinceCode(String code){
+	public void setProvinceCode(int code){
 		this.provinceCode = code;
 	}
 	

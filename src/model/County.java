@@ -3,8 +3,8 @@ package model;
 public class County {
 	private int id;
 	private String countyName;
-	private String countyCode;
-	private int cityId;
+	private int countyCode;
+	private String cityName;
 	
 	public int getId(){
 		return id;
@@ -22,19 +22,19 @@ public class County {
 		this.countyName= name;
 	}
 	
-	public String getCountyCode(){
+	public int getCountyCode(){
 		return countyCode;
 	}
 	
-	public void setCountyCode(String code){
+	public void setCountyCode(int code){
 		this.countyCode = code;
 	}
 	
-	public int getCityId(){
-		return cityId;
+	public String getCityName(){
+		return cityName;
 	}
 	
-	public void setCityId(int cityId){
-		this.cityId = cityId;
+	public void setCityName(String cityName){
+		this.cityName = cityName;
 	}
 }
